@@ -1,0 +1,71 @@
+body {
+    color: rgb(238, 208, 35);
+    background: rgb(13, 12, 76);
+    margin: 0px;
+    font-family: "Noto Serif JP", serif;
+    margin-bottom: 80px;
+}
+
+header {
+    border-bottom: solid 2px rgb(13, 12, 76);
+    padding: 20px;
+    font-size: 56px;
+    color: rgb(238, 208, 35); 
+}
+.chamada {
+    padding-bottom: 80px;
+    padding-top: 80px;
+    display: flex;
+    justify-content: center;
+    background-image: url(imagens/FundoJoJo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+.chamada-texto {
+    margin-right: 5%;
+}
+h1 {
+    font-size: 48.5px;
+}
+h2 {
+    font-size: 48.5px;
+}
+img{
+    height: 300px;
+}
+.categoria-videos {
+    display: flex;
+    overflow-x:auto;
+    gap: 40px;
+}
+.Joestars{
+    background-image: url(imagens/FundoJoJo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.categoria-videos img{
+    opacity: 0.5;
+    height: 200px;
+}
+.categoria-videos img:hover{
+    opacity: 1.0;
+    border: 1px solid rgb(238, 208, 35);
+}
+.wiki {
+    background-image: url(imagens/FundoJoJo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.wiki h3{ 
+    font-size: 48.5px;
+}
+.wiki p{ 
+    font-size: 23px;
+}
